@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sell Item</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <h1>Campus Marketplace</h1>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="request.html">Request</a></li>
+            <li><a href="help.html">Help</a></li>
+            <li><button onclick="logout()">Logout</button></li>
+        </ul>
+    </nav>
+    <div class="selling">
+    <form id="sell-form">
+        <h3>Seller Info</h3>
+        <input type="text" id="seller-name" placeholder="Your Name" required>
+        <input type="text" id="seller-contact" placeholder="Contact Number" required>
+        
+        <h3>Item Info</h3>
+        <input type="text" id="item-name" placeholder="Item Name" required>
+        <input type="text" id="item-price" placeholder="Price" required>
+        <input type="file" id="item-image" accept="image/*" required>
+
+        <button type="submit">Submit</button>
+    </form>
+    </div>
+</body>
+</html>
