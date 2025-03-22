@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
 function login() {
     let email = document.getElementById("email").value;
 
-    if (email.endsWith("@college.edu")) {  // Ensure only college emails can log in
+    if (email.endsWith("@cec.edu")) {  // Ensure only college emails can log in
         localStorage.setItem("loggedInSeller", email);
         alert("Login successful!");
         window.location.href = "home.html";
