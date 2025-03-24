@@ -197,7 +197,21 @@ button:hover {
         align-items: flex-start;
         padding: 15px;
     }
-
+    .heading-container {
+        position: absolute;
+        left: -29px;
+        top:0%; 
+        right: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        pointer-events: none;
+    
+    }
+    .hh1 {
+        font-size: 26px;
+        font-weight: 550;
+    }
     .menu-icon {
         display: block;
         position: absolute;
